@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1b7e5ad5-926a-4afa-9f5e-a22cd603e76c" name="pi">
+        <fileTransfer accessType="SFTP" host="192.168.1.37" port="22" sshConfigId="be41a015-bb66-425a-9078-bf93f9462b3b" sshConfig="nano@192.168.1.37:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0c0a040e-1744-4abe-88ff-2c35f83c9423" name="nano">
+        <fileTransfer accessType="SFTP" host="192.168.1.37" port="22" sshConfigId="be41a015-bb66-425a-9078-bf93f9462b3b" sshConfig="nano@192.168.1.37:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
